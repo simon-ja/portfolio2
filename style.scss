@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin: 0;
+    font:  sans-serif;
+}
+
+    body{
+    background:#171717 ;
+}
+
+
+// nav section
+nav{
+    display: flex;
+    color: white;
+    padding-top: 1rem;
+
+
+    ul{
+        display: flex;
+        margin-left: 45rem;
+        list-style: none;
+        color: white;
+        padding-top: 1rem;
+    
+
+        li{
+            margin-left: 2rem;
+        }
+    }
+}
+
+@media (max-width: 574px){
+    nav {
+        display: grid;
+        height: 100px;
+        width: 100%;
+        background: blue;
+        color: white;
+
+        ul{
+            display: flex;
+            color: white;
+            text-align: center;
+            margin-left: 5rem;
+        }
+    }
+}
+
+// First page section
+.intro{
+    display: inline-block;
+    margin-left: 8rem;
+    h1{
+        margin-top: 10rem;
+        font-size: 2rem;
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
+
+    .b1{
+        margin-top: 20px;
+        background: #27AE60;
+        color: white;
+        border: none;
+        padding: 5px;
+        text-align: center;
+    }
+    }
+
+    .b2{
+        margin-top: 20px;
+        color: white;
+        border: white 1px solid;
+        padding: 5px;
+        text-align: center;
+        background:#171717;
+       
+    p{
+        margin-top: 10px;
+    }
+}
+
+.fig{
+    border-radius: 50%;
+    height: 21rem;
+    width: 21rem;
+     margin-left: 56rem;
+     display: flex;
+     justify-content: center;
+     justify-items: center;
+     align-items: center;
+     border: 2px green solid;
+     transform: translateY(-12rem);
+     
+}
+img{
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    
+
+}
+
+
+// About section
+.parent{
+    text-align: center;
+    transform: translateY(-7rem);
+
+    h1{
+        margin-bottom: 2rem;
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
+}
+
+.parent2{
+    display: flex;
+    margin-left: 10rem;
+   
+    .child1{
+        background: #333;
+        height: 3rem;
+        width: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-left: 10rem;
+        margin-top: 3rem;
+
+        .child2{
+            background: rgb(65, 204, 65);
+            height: 5px;
+            width: 5px;
+            border-radius: 50%;
+            
+        }
+    }
+}
+
+
+.hh{
+    margin-left: 18rem;
+    transform: translateY(-6.5rem);
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+.hh2{
+    margin-left: 4.5rem;
+    transform: translateY(-6.5rem);
+    display: inline-block;
+    text-align: center;
+    color: white;
+
+}
+
+.hh3{
+    margin-left: 4rem;
+    transform: translateY(-6.5rem);
+    display: inline-block;
+    text-align: center;
+    color: white;
+
+}
+
+.hh4{
+    margin-left: 4rem;
+    transform: translateY(-6.5rem);
+    display: inline-block;
+    text-align: center;
+    color: white;
+
+}
+
+// what i do section
+
+
+.head{
+    text-align: center;
+    color: white;
+
+}
+
+.container{
+display: flex;
+justify-content: center;
+margin-top: 5rem;
+color: white;
+
+
+
+
+.secondcontainer{
+    background: #333;
+    height: 200px;
+    width: 250px;
+
+    h3{
+        margin-left: 2rem;
+        opacity: 0.2;
+        
+    }
+
+    svg{
+        margin-left: 2rem;
+    }
+}
+
+.secondcontainer1{
+    background: #333;
+    height: 200px;
+    width: 250px;
+    margin-left: 3rem;
+    border-bottom: 4px solid green;
+
+    h3{
+        margin-left: 2rem;
+        opacity: 0.2;
+
+    }
+
+
+    svg{
+        margin-left: 2rem;
+    }
+}
+.secondcontainer2{
+    background: #333;
+    height: 200px;
+    width: 250px;
+    margin-left: 3rem;
+
+    h3{
+        margin-left: 2rem;
+        opacity: 0.2;
+
+    }
+
+    svg{
+        margin-left: 2rem;
+    }
+}
+
+
+
+}
+
+// skills section
+
+.head2{
+    text-align: center;
+    margin-top: 4rem;
+    color: white;
+
+}
+
+
+.rdcontainer{
+    display: flex;
+    margin-left: 10rem;
+    height: 6rem;
+    width: 65rem;
+    background:#333 ;
+    margin-top: 3rem;
+    padding-top: 1rem;
+   
+
+
+
+    .rd1{
+        margin-left: 8rem;
+
+        p{
+            color: #27AE60;
+
+        }
+
+        h3{
+            font-size: 3rem;
+            color: white;
+            opacity: 0.2;
+        }
+    }
+}
+
+
+// Get in touch section
+.head3{
+    text-align: center;
+    margin-top: 3rem ;
+    color: white;
+
+}
+
+
+form{
+    text-align: center;
+    background-color: transparent;
+
+    .firstinput{
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid white;
+        width: 14rem;
+        opacity: 0.2;
+        outline: none;
+    }
+
+    .firstinput2{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        width: 14rem;
+        margin-top: 3rem;
+        opacity: 0.2;
+        outline: none;
+    }
+
+    .firstinput3{
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid white;
+        width: 14rem;
+        margin-top: 1rem;
+        opacity: 0.2;
+
+    }
+    .firstinput4{
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid white;
+        width: 14rem;
+        margin-top: 1rem;
+        opacity: 0.2;
+
+        
+
+}
+
+    .firstinput5{
+        width: 28rem;
+        height: 6rem;
+        margin-top: 1rem;
+        outline: none;
+        background-color: transparent;
+        border: 1px solid white;
+        opacity: 0.2;
+        
+    }
+
+    .btn{
+        margin-top: 1rem;
+        color: white;
+        background: green;
+        padding: 4px;
+        border: none;
+    }
+   
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    margin-top: 4rem;
+    opacity: 0.2;
+}
+
+
+@media(max-width:576px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width:576px){
+    .parent2{
+        display: flex;
+        flex-direction: column;
+        margin-left: -8rem ;
+    }
+}
+
+
+@media(max-width:576px){
+        .hh, .hh2, .hh3, .hh4{
+        display: flex;
+        flex-direction: column;
+        margin-left:20px;
+        margin-top: 70px;
+        transform: translateY(-32rem);
+
+    }
+}
+
+@media(max-width:576px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+@media(max-width:576px){
+    .secondcontainer1, .secondcontainer2{
+       margin-top: 2rem;
+}
+}
+
+@media(max-width:576px){
+    .secondcontainer{
+       margin-left: 2.7rem;
+}
+}
+
+// @media(max-width:576px){
+//     .rdcontainer{
+//         height: 2px;
+//         width: 2px;
+        
+//         display: grid;
+//         flex-direction: column;
+//     }
+//     @media(max-width:576px){
+//         p, h3{
+//             margin-top: 2rem;
+//         }
+//     }
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
